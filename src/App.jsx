@@ -17,19 +17,19 @@ const productsByImage = {
     {
       id: 2, 
       name: 'Midnight Elegance',
-      price: 89.99,
+      price: 100.99,
       rating: 5,
       image: 'assets/dress4.png',
-      description: 'Elegant evening gown',
+      description: 'A timeless gown perfect for formal events.',
       modelPath: 'models/dress_3_la_dame_a_la_licorne.glb'
     },
     {
       id: 5, 
       name: 'Sunset Radiance',
-      price: 89.99,
+      price: 73.99,
       rating: 5,
     image: 'assets/shopping.webp',
-      description: 'Elegant evening gown variant',
+      description: 'A radiant gown inspired by golden sunsets.',
       modelPath: 'models/dress_3_la_dame_a_la_licorne.glb'
     }
   ],
@@ -38,19 +38,19 @@ const productsByImage = {
     {
       id: 3, 
       name: 'Classic Gray Suit',
-      price: 89.99,
+      price: 99.99,
       rating: 5,
      image: 'assets/download.png',
-      description: 'Elegant evening gown 3',
+      description: 'A sharp, classic gray suit for business or formal events.',
       modelPath: 'models/dress.glb'
     },
     {
       id: 4, 
       name: 'Modern Slim-Fit Suit',
-      price: 89.9,
+      price: 79.9,
       rating: 5,
       image: 'assets/images.png',
-      description: 'Elegant evening gown 4',
+      description: 'Tailored gray slim-fit suit designed for a modern silhouette.',
       modelPath: 'models/metaretail_outfit.glb'
     }
   ]
