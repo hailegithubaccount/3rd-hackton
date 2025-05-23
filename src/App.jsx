@@ -13,13 +13,13 @@ import './App.css';
 
 // Products grouped by image filename
 const productsByImage = {
-  'dress.png': [
+  'dress (2).png': [
     {
       id: 2, 
       name: 'Evening Gown',
       price: 89.99,
       rating: 5,
-      image: 'assets/download.png',
+      image: 'assets/dress4.png',
       description: 'Elegant evening gown',
       modelPath: 'models/dress_3_la_dame_a_la_licorne.glb'
     },
@@ -28,13 +28,13 @@ const productsByImage = {
       name: 'Evening Gown Variant',
       price: 89.99,
       rating: 5,
-    image: 'assets/download.png',
+    image: 'assets/shopping.webp',
       description: 'Elegant evening gown variant',
-      modelPath: 'models/dress_3_la_dame_a_la_licorne.glb'
+      modelPath: 'models/yellow_dress.glb'
     }
   ],
 
-  'dress3.png': [
+  'dress.png': [
     {
       id: 3, 
       name: 'Evening Gown 3',
@@ -51,7 +51,7 @@ const productsByImage = {
       rating: 5,
       image: 'assets/download.png',
       description: 'Elegant evening gown 4',
-      modelPath: 'models/dress.glb'
+      modelPath: 'models/metaretail_outfit.glb'
     }
   ]
 };
