@@ -17,7 +17,7 @@ const productsByImage = {
     {
       id: 2, 
       name: 'Midnight Elegance',
-      price: 100.99,
+      price: 4000,
       rating: 5,
       image: 'assets/dress4.png',
       description: 'A timeless gown perfect for formal events.',
@@ -26,7 +26,7 @@ const productsByImage = {
     {
       id: 5, 
       name: 'Sunset Radiance',
-      price: 73.99,
+      price: 3500,
       rating: 5,
     image: 'assets/shopping.webp',
       description: 'A radiant gown inspired by golden sunsets.',
@@ -38,7 +38,7 @@ const productsByImage = {
     {
       id: 3, 
       name: 'Classic Gray Suit',
-      price: 99.99,
+      price: 7000,
       rating: 5,
      image: 'assets/download.png',
       description: 'A sharp, classic gray suit for business or formal events.',
@@ -47,7 +47,7 @@ const productsByImage = {
     {
       id: 4, 
       name: 'Modern Slim-Fit Suit',
-      price: 79.9,
+      price: 8500,
       rating: 5,
       image: 'assets/images.png',
       description: 'Tailored gray slim-fit suit designed for a modern silhouette.',
@@ -315,7 +315,7 @@ function App() {
                 ))}
               </div>
               <p className="product-description">{product.description}</p>
-              <p className="product-price">${product.price.toFixed(2)}</p>
+              <p className="product-price">{product.price.toFixed(2)} birr</p>
               <button className="add-to-cart">Add to Cart</button>
               <button className="buy-now">Buy Now</button>
               <button
