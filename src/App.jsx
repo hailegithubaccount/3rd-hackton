@@ -16,7 +16,7 @@ const productsByImage = {
   'dress (2).png': [
     {
       id: 2, 
-      name: 'Evening Gown',
+      name: 'Midnight Elegance',
       price: 89.99,
       rating: 5,
       image: 'assets/dress4.png',
@@ -25,19 +25,19 @@ const productsByImage = {
     },
     {
       id: 5, 
-      name: 'Evening Gown Variant',
+      name: 'Sunset Radiance',
       price: 89.99,
       rating: 5,
     image: 'assets/shopping.webp',
       description: 'Elegant evening gown variant',
-      modelPath: 'models/yellow_dress.glb'
+      modelPath: 'models/dress_3_la_dame_a_la_licorne.glb'
     }
   ],
 
   'dress.png': [
     {
       id: 3, 
-      name: 'Evening Gown 3',
+      name: 'Classic Gray Suit',
       price: 89.99,
       rating: 5,
      image: 'assets/download.png',
@@ -46,10 +46,10 @@ const productsByImage = {
     },
     {
       id: 4, 
-      name: 'Evening Gown 4',
+      name: 'Modern Slim-Fit Suit',
       price: 89.9,
       rating: 5,
-      image: 'assets/download.png',
+      image: 'assets/images.png',
       description: 'Elegant evening gown 4',
       modelPath: 'models/metaretail_outfit.glb'
     }
